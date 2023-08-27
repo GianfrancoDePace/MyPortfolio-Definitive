@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
+#home {
+  box-sizing: border-box;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+#ProPic {
+  height: 25rem;
+  width: 25rem;
+}
+
+.descrizione h1,
+.descrizione h2 {
+  font-family: "Smooch", cursive;
+  margin: 0;
+}
+.HomeButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#resumeButton,.ProjectButton {
+  background-color: transparent;
+  border-radius: 50px;
+  gap: 10px;
+  font-family: "Smooch", cursive;
+  font-size: larger;
+  transition: transform 0.3s ease-in-out;
+}
+
+#resumeButton:hover {
+  transform: scale(1.1);
+}
+

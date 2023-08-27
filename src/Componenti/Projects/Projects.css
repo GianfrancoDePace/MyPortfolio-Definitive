@@ -1,0 +1,38 @@
+#Projects {
+    background-color: #FBD1A2;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    font-family: "open sans-serif";
+    border: 2px solid black;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#Progetti {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.Progetto{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.ImmagineProgetto{
+    width: 10rem;
+    height: 10rem;
+}
+
+hr {
+    border: 1px solid black;
+}

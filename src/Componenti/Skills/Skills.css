@@ -1,0 +1,16 @@
+.tt {
+    display: flex;
+    justify-content: center;
+}
+
+.iconeLinguaggioProg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinguaggioProg {
+  width: 15%;
+  height:  15%;
+}
