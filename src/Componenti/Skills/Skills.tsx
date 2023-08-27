@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <>
       <div id="Skills">
-        <h3 className="tt"> Known languages:</h3>
+        <h3 className="title"> Known languages:</h3>
         <div className="FrontEnd">
           <h4 className=""> Front-End: </h4>
           <div className="iconeLinguaggioProg">

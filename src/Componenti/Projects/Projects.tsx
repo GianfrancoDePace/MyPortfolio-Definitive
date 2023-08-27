@@ -43,7 +43,7 @@ const Projects = () => {
               />
             </div>
             <div className="descrizione">
-              <p>A game created in Phython using a library called </p>
+              <p>A game created in Phython using Pygame </p>
             </div>
           </div>
           <div className="Progetto">
