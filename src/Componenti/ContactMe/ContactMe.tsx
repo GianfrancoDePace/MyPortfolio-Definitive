@@ -1,6 +1,5 @@
 import LinkedIn from "../../Assets/LinkedIn.png";
 import GitHub from "../../Assets/github.png";
-import Twitter from "../../Assets/twitter.png";
 import Mail from "../../Assets/arroba-sign.png";
 import Telegram from "../../Assets/telegram.png";
 import "./ContactMe.css";
@@ -34,7 +33,7 @@ const ContactMe = () => {
             src={Telegram}
              className="bottone"
             onClick={ClickMail}
-            alt="Twitter"
+            alt="Telegram"
           />
         </button>
         <button className="button1">
@@ -45,15 +44,6 @@ const ContactMe = () => {
             alt="Twitter"
           />
         </button>
-        <button className="button1">
-          <img
-            src={Twitter}
-            className="bottone"
-            onClick={ClickMail}
-            alt="Twitter"
-          />
-        </button>
-        <p>(Aperto raramente)</p>
       </div>
     </div>
   );

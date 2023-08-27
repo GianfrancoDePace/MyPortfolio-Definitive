@@ -1,9 +1,11 @@
 import Immagine from "../../Assets/fasi-di-progetto-1130x753.png";
+import Zelda from "../../Assets/Zelda.png";
+import GameShop from "../../Assets/gamestore projects[2329].png";
 import "./Projects.css";
 
 const Projects = () => {
   
-  function Zelda(){
+  function ZeldaLink(){
     window.open("https://github.com/GianfrancoDePace/Zelda");
   }
   
@@ -34,14 +36,14 @@ const Projects = () => {
             </h3>
             <div>
               <img
-                src={Immagine}
+                src={Zelda}
                 className="ImmagineProgetto"
                 alt="immagine-prog1"
-                onClick={Zelda}
+                onClick={ZeldaLink}
               />
             </div>
             <div className="descrizione">
-              <p>Piccolo videogioco creato interamente in Python</p>
+              <p>A game created in Phython using a library called </p>
             </div>
           </div>
           <div className="Progetto">
@@ -50,13 +52,13 @@ const Projects = () => {
                 E-shop 
               </h3>
               <img
-                src={Immagine}
+                src={GameShop}
                 className="ImmagineProgetto"
                 alt="immagine-prog1"
               />
             </div>
             <div className="descrizione">
-              <p>E-commerce creato tramite l'utilizzo di Wordpress, utilizzando diversi plugin</p>
+              <p>E-shop createsd with Wordpress</p>
             </div>
           </div>
         </div>

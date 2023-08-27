@@ -1,10 +1,18 @@
+@media only screen and (max-width: 1069px) { 
+    #Progetti {
+        display: flex;
+        flex-direction: column  ;
+        column-gap: 10px !important;
+    }
+}
+
 #Projects {
     background-color: #FBD1A2;
-    min-height: 100vh;
+    min-height: 50vh;
     top: 0;
     left: 0;
     font-family: "open sans-serif";
-    border: 2px solid black;
+    border: 2px solid black;    
 }
 
 h3 {
@@ -36,3 +44,4 @@ h3 {
 hr {
     border: 1px solid black;
 }
+
