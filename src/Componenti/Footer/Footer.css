@@ -1,4 +1,4 @@
-.footer {
+#footer {
     width: 100%;
     height: 100%;
     background-color: #fbd1a2  ; 
@@ -8,7 +8,7 @@
     align-items: center;  
 }    
 
-.col-1{
+#col-1{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

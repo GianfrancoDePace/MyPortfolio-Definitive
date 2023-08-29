@@ -21,7 +21,7 @@ const ContactMe = () => {
         <h3> Let's get in touch: </h3>
       </div>
       <div className="button">
-          <button className="button1" onClick={ClickLinkedIn}>
+          <button className="button1" onClick={ClickLinkedIn} >
           <img src={LinkedIn} className="bottone" alt="Linkedin" />
         </button>
         <p>(Raccomandato)</p>

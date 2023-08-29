@@ -8,7 +8,7 @@ const DataFetch = () => {
     const [followerCount, setFollowerCount] = useState<number | null>(null);
     const [followingCount, setFollowingCount] = useState<number | null>(null);
  
-    const fetchData = () => {
+    const fetchData = async() => {
         fetch("https://api.github.com/users/GianfrancoDePace")
             .then(response => response.json())
             .then((data) => {
