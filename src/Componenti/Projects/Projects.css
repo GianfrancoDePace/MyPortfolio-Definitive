@@ -2,7 +2,7 @@
     top: 0;
     left: 0;
     
-    height: 75em;
+    height: 50em;
     
     border: 2px solid black;    
     
@@ -35,8 +35,8 @@ h3 {
 }
 
 .immagineProgetto{
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
 }
 
 /* media */

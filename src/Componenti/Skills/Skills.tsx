@@ -16,32 +16,35 @@ const Skills = () => {
   return (
     <>
       <div id="Skills">
-        <h3 className="title"> Known languages:</h3>
-        <div className="FrontEnd">
-          <h4 className=""> Front-End: </h4>
-          <div className="iconeLinguaggioProg">
-            <img src={HTML} className="LinguaggioProg" alt="" />
-            <img src={CSS} className="LinguaggioProg" alt="" />
-            <img src={Boostrap} className="LinguaggioProg" alt="" />
-            <img src={Javascript} className="LinguaggioProg" alt="" />
-            <img src={React} className="LinguaggioProg" alt="" />
+        <h3 className="linguaggi-conosciuti"> Known languages:</h3>
+
+        <div className="linguaggi-box">
+          <div className="boxSkills">
+            <h4 className="sottotitolo"> Front-End: </h4>
+            <div className="iconeLinguaggioProg">
+              <img src={HTML} className="linguaggioProg-icon" alt="" />
+              <img src={CSS} className="linguaggioProg-icon" alt="" />
+              <img src={Boostrap} className="linguaggioProg-icon" alt="" />
+              <img src={Javascript} className="linguaggioProg-icon" alt="" />
+              <img src={React} className="linguaggioProg-icon" alt="" />
+            </div>
           </div>
-        </div>
-        <div className="BackEnd">
-          <h4 className=""> Back-End:</h4>
-          <div className="iconeLinguaggioProg">
-            <img src={Java} className="LinguaggioProg" alt="" />
-            <img src={Python} className="LinguaggioProg" alt="" />
-            <img src={MySQL} className="LinguaggioProg" alt="" />
-            <img src={Csharp} className="LinguaggioProg" alt="" />
+          <div className="boxSkills">
+            <h4 className="sottotitolo"> Back-End:</h4>
+            <div className="iconeLinguaggioProg">
+              <img src={Java} className="linguaggioProg-icon" alt="" />
+              <img src={Python} className="linguaggioProg-icon" alt="" />
+              <img src={MySQL} className="linguaggioProg-icon" alt="" />
+              <img src={Csharp} className="linguaggioProg-icon" alt="" />
+            </div>
           </div>
-        </div>
-        <div>
-          <h4 className=""> Others Skills or IDE: </h4>
-          <div className="iconeLinguaggioProg">
-            <img src={WordPress} className="LinguaggioProg" alt="" />
-            <img src={Github} className="LinguaggioProg" alt="" />
-            <img src={Unity} className="LinguaggioProg" alt="" />
+          <div className="boxSkills">
+            <h4 className="sottotitolo"> Others Skills or IDE: </h4>
+            <div className="iconeLinguaggioProg">
+              <img src={WordPress} className="linguaggioProg-icon" alt="" />
+              <img src={Github} className="linguaggioProg-icon" alt="" />
+              <img src={Unity} className="linguaggioProg-icon" alt="" />
+            </div>
           </div>
         </div>
       </div>
