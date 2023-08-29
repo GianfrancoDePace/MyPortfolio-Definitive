@@ -12,10 +12,7 @@
   flex-direction:row;
 }
 
-.boxSkills{
-  display: flex;
-  flex-direction: row;
-}
+
 
 .sottotitolo {
   display:flex;
