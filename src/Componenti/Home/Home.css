@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200');
 #home {
   display: flex;
   flex-direction: row;
@@ -21,7 +21,6 @@
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Smooch', cursive;
 }
 .homeButton {
   display: flex;
