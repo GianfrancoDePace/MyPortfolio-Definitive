@@ -1,11 +1,10 @@
-
 #Skills {
   display: flex;
 }
 
 .title {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 .iconeLinguaggioProg{
@@ -25,6 +24,6 @@
 #Skills{
   display: flex;
   flex-direction: column  ;
-      column-gap: 10px 
+      column-gap: 10px;
     }
 }

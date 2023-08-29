@@ -50,8 +50,9 @@
   transition: transform 0.3s ease-in-out;
 }
 
-#bottom-line {
-width: 100px;
+hr {
+width: 100%;
+border: 2px solid black;
 }
 #gitHubStats {
   display: flex;

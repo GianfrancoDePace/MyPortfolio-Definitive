@@ -13,10 +13,9 @@ const Projects = () => {
       <div id="Projects">
         <h3> Projects</h3>
         <div id="progetti">
-          <div id="Filtro"></div>
           <div className="progetto">
             <h3>
-              Project Z
+              Project Zelda
             </h3>
             <div>
               <img
@@ -31,10 +30,10 @@ const Projects = () => {
             </div>
           </div>
           <div className="progetto">
+            <h3>
+              GameShop
+            </h3>
             <div>
-              <h3>
-                E-shop 
-              </h3>
               <img
                 src={GameShop}
                 className="ImmagineProgetto"
@@ -42,7 +41,7 @@ const Projects = () => {
               />
             </div>
             <div className="descrizione">
-              <p>E-shop createsd with Wordpress</p>
+              <p>A shop I created for an exam using Wordpress </p>
             </div>
           </div>
         </div>
