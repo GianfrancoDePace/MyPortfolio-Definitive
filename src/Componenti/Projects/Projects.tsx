@@ -12,9 +12,9 @@ const Projects = () => {
     <>
       <div id="Projects">
         <h3> Projects</h3>
-        <div id="Progetti">
+        <div id="progetti">
           <div id="Filtro"></div>
-          <div className="Progetto">
+          <div className="progetto">
             <h3>
               Project Z
             </h3>
@@ -30,7 +30,7 @@ const Projects = () => {
               <p>A game created in Phython using Pygame </p>
             </div>
           </div>
-          <div className="Progetto">
+          <div className="progetto">
             <div>
               <h3>
                 E-shop 
