@@ -1,4 +1,3 @@
-import Immagine from "../../Assets/fasi-di-progetto-1130x753.png";
 import Zelda from "../../Assets/Zelda.png";
 import GameShop from "../../Assets/gamestore projects[2329].png";
 import "./Projects.css";
@@ -15,21 +14,6 @@ const Projects = () => {
         <h3> Projects</h3>
         <div id="Progetti">
           <div id="Filtro"></div>
-          <div className="Progetto">
-            <h3>
-              Social Page: Work in Progress
-            </h3>
-            <div>
-              <img
-                src={Immagine}
-                className="ImmagineProgetto"
-                alt="immagine-prog1"
-              />
-            </div>
-            <div className="descrizione">
-              <p> Social network</p>
-            </div>
-          </div>
           <div className="Progetto">
             <h3>
               Project Z
