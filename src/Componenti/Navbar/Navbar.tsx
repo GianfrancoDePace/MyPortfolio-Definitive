@@ -8,24 +8,24 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="Navbar">
-      <div className="Navbar-left">
+    <div id="navbar">
+      <div id="navbar-left">
         <Link to="#home" smooth>
-          <img src={Home} className="logo" alt="" />
+          <img src={Home} className="icons-navbar" alt="" />
         </Link>
       </div>
-      <div className="Navbar-right">
-        <Link to="#About-me" className="logo" smooth>
-          <img src={Info} className="logo" alt="" />
+      <div id="navbar-right">
+        <Link to="#About-me" smooth>
+          <img src={Info} className="icons-navbar" alt="" />
         </Link>
         <Link to="#Skills" smooth>
-          <img src={Skills} className="logo" alt="" />
+          <img src={Skills} className="icons-navbar" alt="" />
         </Link>
         <Link to="#Projects" smooth>
-          <img src={Projects} className="logo" alt="" />
+          <img src={Projects} className="icons-navbar" alt="" />
         </Link>
         <Link to="#Contact-me" smooth>
-          <img src={ContactMe} className="logo"alt="" />
+          <img src={ContactMe} className="icons-navbar" alt="" />
         </Link>
       </div>
     </div>
