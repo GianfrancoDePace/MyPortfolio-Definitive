@@ -1,68 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
-
 #About-me {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  padding: 20px;
+}
 
+.immagine {
   width: 100%;
-  height: 100vh;
-  min-height: 50vh;
-  border: 2px solid black;
-
-  background-color: #fbd1a2;
-
-  font-family: "open sans-serif";
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .descrizione {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.descrizione p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.buttons-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.prova {
-  border: 2px solid white;
-
-  font-size: 25px;
+.buttons {
+  margin: 5px;
 }
 
-.immagine {
-  justify-content: center;
-  align-items: center;
-
-  width: 250px;
-  height: 250px;
-}
-
-#contact-me {
-  gap: 10px;
-
-  border-radius: 50px;
-
-  background-color: transparent;
-
-  font-family: "Smooch", cursive;
-  font-size: larger;
-
-  transition: transform 0.3s ease-in-out;
-}
-
-hr {
-width: 100%;
-border: 2px solid black;
-}
 #gitHubStats {
+  margin-top: 20px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-}
-
-.projectButton:hover {
-  transform: scale(1.1);
-}
-
-#contact-Me:hover {
-  transform: scale(1.1);
 }
