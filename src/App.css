@@ -1,3 +1,23 @@
-.root {
-    gap: 10px;
+#Projects,
+#home,
+#About-me,
+#Skills,
+#Contact-me 
+{
+  background-color: #f5f5f5;
+}
+
+
+
+.buttons {
+  border-radius: 50px;
+
+  background-color: transparent;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  
 }

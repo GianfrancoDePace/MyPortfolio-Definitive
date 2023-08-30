@@ -34,7 +34,7 @@ const DataFetch = () => {
                 </div>
             ) : (
                 <p>Loading...</p>
-            )}
+            )}  
         </div>
     );
 };

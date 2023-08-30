@@ -9,6 +9,7 @@
   box-sizing: border-box;
   margin-top: 0;
   margin-left: 0;
+
 }
 
 #ProPic {
@@ -21,19 +22,4 @@
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
-}
-.homeButton {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.projectButton {
-  border-radius: 50px;
-
-  background-color: transparent;
-
-  font-family: "Smooch", cursive;
-  font-size: larger;
-
-  transition: transform 0.3s ease-in-out;
 }

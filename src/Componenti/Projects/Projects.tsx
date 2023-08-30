@@ -11,22 +11,22 @@ const Projects = () => {
   return (
     <>
       <div id="Projects">
-        <h3> Projects</h3>
+        <h2 id="project-title"> Projects</h2>
         <div id="progetti">
           <div className="progetto">
             <h3>
-              Project Zelda
+              Project Z
             </h3>
             <div>
               <img
                 src={Zelda}
                 className="ImmagineProgetto"
                 alt="immagine-prog1"
-                onClick={ZeldaLink}
               />
             </div>
             <div className="descrizione">
               <p>A game created in Phython using Pygame </p>
+               <button id="zelda" onClick={ZeldaLink}>See more here</button>
             </div>
           </div>
           <div className="progetto">

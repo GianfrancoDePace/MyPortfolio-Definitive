@@ -1,49 +1,45 @@
-.Text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center ;
+#Contact-me {
+  padding: 20px;
+  text-align: center;
 }
 
-.bottoni {
-  background-image: url(../../Assets/background.png);
-  top: 0;
-  left: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;    
-  align-items: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.Text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 .button {
   display: flex;
-  flex-direction: row;
-  justify-content: center;  
-  gap: 10px;  
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.button1 {
-  width: 50px;
-  height: 50px;
+.link-buttons {
+  margin: 5px;
+  border: none;
   background-color: transparent;
-  border-color: transparent;
-  border-radius: 50%;
-  object-fit: cover;
+  cursor: pointer;
 }
 
 .bottone {
-  width: 35px;
-  height: 35px;  
-  transition: transform 0.3s ease-in-out;
+  width: 70px; /* Adjust icon size */
+  height: 70px;
 }
 
-.bottone:hover {
-  transform: rotate(15deg);
+.button p {
+  margin-top: 5px;
+  font-size: 0.8rem;
 }
 
-.Contact-image {
-  width: 10rem;
-  height: 10rem;
+@media only screen and (max-width: 1024px) {
+  .button {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .bottone {
+    width: 40px;
+    height: 40px;
+  }
 }

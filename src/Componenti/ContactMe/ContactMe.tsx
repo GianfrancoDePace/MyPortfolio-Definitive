@@ -21,22 +21,21 @@ const ContactMe = () => {
         <h3> Let's get in touch: </h3>
       </div>
       <div className="button">
-          <button className="button1" onClick={ClickLinkedIn} >
+        <button className="link-buttons" onClick={ClickLinkedIn} >
           <img src={LinkedIn} className="bottone" alt="Linkedin" />
         </button>
-        <p>(Raccomandato)</p>
-        <button className="button1" onClick={ClickGitHub}>
+        <button className="link-buttons" onClick={ClickGitHub}>
           <img src={GitHub} className="bottone" alt="Github" />
         </button>
-        <button className="button1">
+        <button className="link-buttons">
           <img
             src={Telegram}
-             className="bottone"
+            className="bottone"
             onClick={ClickMail}
             alt="Telegram"
           />
         </button>
-        <button className="button1">
+        <button className="link-buttons">
           <img
             src={Mail}
             className="bottone"

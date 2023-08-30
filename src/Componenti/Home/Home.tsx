@@ -10,15 +10,13 @@ const Home = () => {
       </div>
       <div className="descrizione">
         <h1>
-          Hi,i'm Gianfranco De Pace <br />a wannabe
+          Hi,i'm Gianfranco De Pace <br /> a wannabe
         </h1>
         <h2> FULL STACK DEVELOPER</h2>
-        <div className="homeButton">
-          <div>
-            <Link to={"#Projects"} smooth>
-              <button className="projectButton"> Projects </button>
-            </Link>
-          </div>
+        <div>
+          <Link to={"#Projects"} smooth>
+          <button className="buttons"> Projects </button>
+          </Link>
         </div>
       </div>
     </div>
