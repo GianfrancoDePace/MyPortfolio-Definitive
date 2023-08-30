@@ -7,6 +7,9 @@ const Projects = () => {
   function ZeldaLink(){
     window.open("https://github.com/GianfrancoDePace/Zelda");
   }
+  function WpLink(){
+    window.open("hungry-yogurt.localsite.io");
+  }
   
   return (
     <>
@@ -26,7 +29,7 @@ const Projects = () => {
             </div>
             <div className="descrizione">
               <p>A game created in Phython using Pygame </p>
-               <button id="zelda" onClick={ZeldaLink}>See more here</button>
+               <button className="project-button" onClick={ZeldaLink}>See more here</button>
             </div>
           </div>
           <div className="progetto">
@@ -41,7 +44,11 @@ const Projects = () => {
               />
             </div>
             <div className="descrizione">
-              <p>A shop I created for an exam using Wordpress </p>
+              <p>A shop I created for an exam using Wordpress. <br />
+                Username:hammer <br />
+                password:gifted
+              </p>
+              <button className="project-button" onClick={WpLink}>Go to the site</button>              
             </div>
           </div>
         </div>
