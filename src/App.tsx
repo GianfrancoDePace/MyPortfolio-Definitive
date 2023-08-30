@@ -1,4 +1,3 @@
-//import { Routes, Route } from "react-router-dom";
 import Navbar from "./Componenti/Navbar/Navbar.tsx";
 import Home from "./Componenti/Home/Home.tsx";
 import AboutMe from "./Componenti/AboutMe/AboutMe.tsx";
@@ -6,6 +5,7 @@ import Skills from "./Componenti/Skills/Skills.tsx";
 import Projects from "./Componenti/Projects/Projects.tsx";
 import ContactMe from "./Componenti/ContactMe/ContactMe.tsx";
 import Footer from "./Componenti/Footer/Footer.tsx";
+
 import "./App.css";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <br />
       <AboutMe />
       <Skills />
-      <br />    
+      <br />
       <Projects />
       <ContactMe />
       <Footer />
