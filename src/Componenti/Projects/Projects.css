@@ -51,6 +51,7 @@
 }
 
 /* Mobile */
+
 @media only screen and (max-width: 1023px) {
   #progetti {
     grid-template-columns: 1fr; /* Display projects in a single column */
