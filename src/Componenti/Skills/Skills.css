@@ -1,4 +1,4 @@
-#Skills {
+#skills {
   padding: 20px;
 }
 
@@ -35,6 +35,8 @@
   margin-bottom: 20px;
 }
 
+/* Mobile*/
+
 @media only screen and (max-width: 1024px) {
   .boxSkills {
     padding: 15px;
@@ -54,8 +56,6 @@
     margin-bottom: 8px;
   }
 }
-
-/* Mobile*/
 
 @media only screen and (max-width: 767px) {
   .boxSkills {

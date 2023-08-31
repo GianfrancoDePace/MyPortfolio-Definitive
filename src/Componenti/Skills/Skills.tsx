@@ -15,7 +15,7 @@ import "./Skills.css";
 const Skills = () => {
   return (
     <>
-      <div id="Skills">
+      <div id="skills">
         <h3 className="linguaggi-conosciuti"> Known languages:</h3>
 
         <div className="linguaggi-box">
