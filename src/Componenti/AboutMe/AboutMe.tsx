@@ -3,7 +3,7 @@ import DataFetch from "./DataFetcth/DataFetch";
 import Photo from "../../Assets/icon-developer-12.png";
 import GitHub from "../../Assets/github.png";
 //import Propic from "../../Assets/Propic.jpg" da agggiungere con modifiche
-import "./AboutMe.css";
+import "./../../Style/AboutMe.css";
 
 const AboutMe = () => {
   function ClickGitHub() {
@@ -43,7 +43,7 @@ const AboutMe = () => {
           </button>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 
