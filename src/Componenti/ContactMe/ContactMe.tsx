@@ -2,7 +2,7 @@ import LinkedIn from "../../Assets/LinkedIn.png";
 import GitHub from "../../Assets/github.png";
 import Mail from "../../Assets/arroba-sign.png";
 import Telegram from "../../Assets/telegram.png";
-import "./ContactMe.css";
+import "./../../Style/ContactMe.css";
 
 const ContactMe = () => {
   function ClickLinkedIn() {

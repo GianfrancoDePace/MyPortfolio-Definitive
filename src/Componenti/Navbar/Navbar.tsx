@@ -4,7 +4,7 @@ import Info from "../../Assets/info.png";
 import Skills from "../../Assets/pencil.png";
 import Projects from "../../Assets/analytics.png";
 import ContactMe from "../../Assets/video-call.png";
-import "./Navbar.css";
+import "../../Style/Navbar.css";
 
 const Navbar = () => {
   return (

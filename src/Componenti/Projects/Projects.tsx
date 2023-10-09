@@ -1,6 +1,6 @@
 import Zelda from "../../Assets/Zelda.png";
 import GameShop from "../../Assets/gamestore projects[2329].png";
-import "./Projects.css";
+import "../../Style/Projects.css";
 
 const Projects = () => {
   

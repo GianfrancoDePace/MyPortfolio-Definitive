@@ -1,6 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import ProPic from "../../Assets/developer-removebg-preview.png";
-import "./Home.css";
+import "../../Style/Home.css";
 
 const Home = () => {
   return (

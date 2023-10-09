@@ -10,7 +10,7 @@ import Csharp from "../../Assets/c-sharp.png";
 import WordPress from "../../Assets/wordpress.png";
 import Github from "../../Assets/github.png";
 import Unity from "../../Assets/unity.png";
-import "./Skills.css";
+import "../../Style/Skills.css";
 
 const Skills = () => {
   return (

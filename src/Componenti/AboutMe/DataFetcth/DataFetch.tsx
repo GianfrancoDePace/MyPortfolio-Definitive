@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import "./DataFetch.css";
+import "../../../Style/DataFetch.css";
  
 const DataFetch = () => {
  
@@ -24,7 +24,7 @@ const DataFetch = () => {
     }, []);
  
     return (
-        <div>
+        <>
             {repoCount !== null && gistCount !== null && followerCount !== null && followingCount !== null ? (
                 <div>
                     <p>Number of Public Repos: {repoCount}</p>
@@ -35,7 +35,7 @@ const DataFetch = () => {
             ) : (
                 <p>Loading...</p>
             )}  
-        </div>
+        </>
     );
 };
  
