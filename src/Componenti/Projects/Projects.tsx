@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="descrizione">
               <p>A game created in Phython using Pygame </p>
               <button className="project-button">
-                <a href="https://github.com/GianfrancoDePace/Zelda">
+                <a href="https://github.com/GianfrancoDePace/Zelda" target="_blank">
                   See more here
                 </a>
               </button>
@@ -40,10 +40,11 @@ const Projects = () => {
               <p>
                 A shop I created for an exam using Wordpress. <br />
                 Username:hammer <br />
-                password:gifted
+                password:gifted <br />
+                currently offline
               </p>
               <button className="project-button">
-                <a href="hungry-yogurt.localsite.io">Go to the site</a>
+                <a href="hungry-yogurt.localsite.io" target="_blank">Go to the site</a>
               </button>
             </div>
           </div>

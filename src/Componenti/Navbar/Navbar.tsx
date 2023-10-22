@@ -1,4 +1,4 @@
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import Home from "../../Assets/home.png";
 import Info from "../../Assets/info.png";
 import Skills from "../../Assets/pencil.png";
@@ -10,21 +10,21 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div id="navbar-left">
-        <Link to="#home" smooth>
+        <Link to="#home" >
           <img src={Home} className="icons-navbar" alt="" />
         </Link>
       </div>
       <div id="navbar-right">
-        <Link to="#About-me" smooth>
+        <Link to="/About-me" >
           <img src={Info} className="icons-navbar" alt="" />
         </Link>
-        <Link to="#Skills" smooth>
+        <Link to="/Skills" >
           <img src={Skills} className="icons-navbar" alt="" />
         </Link>
-        <Link to="#Projects" smooth>
+        <Link to="/Projects" >
           <img src={Projects} className="icons-navbar" alt="" />
         </Link>
-        <Link to="#Contact-me" smooth>
+        <Link to="/Contact-me" >
           <img src={ContactMe} className="icons-navbar" alt="" />
         </Link>
       </div>
